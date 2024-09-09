@@ -1,0 +1,95 @@
+body {
+    position: relative;
+    background-image: url('vamsi\ .png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.topright {
+    position: -webkit-sticky;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-left: 75%;
+    top: 0;
+    background-color: rgba(14, 1, 1, 0.053);
+    backdrop-filter: blur(50px);
+    border-bottom: 1px solid #ccc;
+    border-top: transparent;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.form-control {
+    position: absolute;
+    display: flex;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 35%;
+    margin-bottom: 5px;
+    padding-left: 30px;
+    background-color: rgba(14, 1, 1, 0.053);
+    backdrop-filter: blur(30px);
+    color: white;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.form-control::placeholder {
+    color: wheat;
+}
+
+.form-control:focus {
+    cursor: pointer;
+    background-color: rgba(14, 1, 1, 0.053);
+    color: wheat;
+    font-family: 'Poppins', sans-serif;
+}
+
+#adt {
+    position: absolute;
+    margin-top: 36.5%;
+    margin-left: 69%;
+}
+
+.card {
+    margin-top: 60px;
+    display: flex;
+    width: 225px;
+    height: 225px;
+    margin-left: 80px;
+    overflow: hidden;
+    white-space: normal;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.card a {
+    position: absolute; 
+    margin-top: 91px;
+}
+
+.done-btn{
+    margin-left: 33%;
+    margin-top: 92px;
+}
+.swiper {
+    width: 600px;
+    height: 300px;
+}
+.swiper-container {
+     
+    width: 100%;
+    height: 500px;
+}
